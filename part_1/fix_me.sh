@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Reading data from the user's input
+c
 echo 'Enter a value for a : '
 read a
 echo 'Enter a value for b : '
 read b
 
-add=$((awk "BEGIN {print a + b}"))
-
+add=$((a + b))
 echo Addition of a and b are $add
 
 sub=$((a - b))
@@ -28,6 +28,7 @@ echo Increment operator when applied on "a" results into a = $a
 ((--b))
 echo Decrement operator when applied on "b" results into b = $b
 
+echo The default value for c is $c.
+
 ((--c))
-echo What was the default value of c if its value is now $c\?
-echo The default value for c is 0.
+echo Decrement operator when applied on "c" results into c = $c
