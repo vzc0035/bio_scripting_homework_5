@@ -3,7 +3,7 @@
 # Reading data from the user's input
 echo 'Enter a value for a : '
 read a
-echo 'Enter a value for b : ' 
+echo 'Enter a value for b : '
 read b
 
 add=$((a + b))
@@ -29,4 +29,5 @@ echo Increment operator when applied on "a" results into a = $a
 echo Decrement operator when applied on "b" results into b = $b
 
 ((--c))
-echo What was the default value \ of c if its value is now $c\?
+echo What was the default value of c if its value is now $c\?
+echo The default value for c is 0.
