@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Reading data from the user's input
-c
-echo 'Enter a value for a : '
+echo 'Enter a number value for a : '
 read a
-echo 'Enter a value for b : '
+echo 'Enter a number value for b : '
 read b
+
+c=0
 
 add=$((a + b))
 echo Addition of a and b are $add
