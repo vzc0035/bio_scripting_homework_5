@@ -6,7 +6,7 @@ read a
 echo 'Enter a value for b : '
 read b
 
-add= awk "BEGIN {print $a + $b}"
+add=$((awk"BEGIN {print a + b}"))
 
 echo Addition of a and b are $add
 
