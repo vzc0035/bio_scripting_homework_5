@@ -1,11 +1,11 @@
 #! /bin/python3
 
 # Reading data from the user's input
-a = input("Enter a : ")
+a = int(input("Enter a number value for a : "))
 
 print("You entered", a, "which is a", type(a))
 
-b = input("Enter b : ")
+b = int(input("Enter b : "))
 
 print("You entered", b, "which is a", type(b))
 
