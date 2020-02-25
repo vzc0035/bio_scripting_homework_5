@@ -1,4 +1,3 @@
-
 #! /bin/python3
 
 # Reading data from the user's input
